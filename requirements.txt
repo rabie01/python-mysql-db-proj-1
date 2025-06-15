@@ -1,2 +1,2 @@
-python3-Flask
-python3-pymysql
+Flask
+pymysql
