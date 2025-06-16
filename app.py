@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, render_template, request
-import pymysql
+import pymysql, os
 
 app = Flask(__name__)
 db_host = os.environ.get('DB_HOST')
